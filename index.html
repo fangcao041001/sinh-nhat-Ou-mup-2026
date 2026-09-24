@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Đi Tìm Quà Của OU - Bản Đồ Kho Báu</title>
+    <title>Đào báo cùm em Mòe</title>
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -125,10 +125,10 @@
             </span>
         </div>
         <h1 class="text-2xl sm:text-3xl font-extrabold text-amber-400 font-pirate tracking-wide uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
-            <i class="fa-solid fa-map-location-dot mr-1 text-yellow-500"></i> bé Ỏu báo cùm Mòe
+            <i class="fa-solid fa-map-location-dot mr-1 text-yellow-500"></i> bé Ỏu đào báo cùm Mòe
         </h1>
         <p class="text-xs text-amber-200/90 italic font-serif-classic mt-0.5">
-            Ỏu kím và Mòe dòu nha!!
+            Ỏu kím và Mòe dóu nha!!
         </p>
 
         <!-- Thanh Tiến Trình (Progress) -->
@@ -292,7 +292,7 @@
             <div class="mt-4 flex justify-end">
                 <button id="btn-submit-answer" onclick="submitAnswer()"
                         class="w-full bg-gradient-to-r from-amber-800 to-amber-900 hover:from-amber-900 hover:to-amber-950 active:scale-95 text-yellow-100 font-bold py-3 px-4 rounded-xl shadow-lg text-sm uppercase tracking-wide transition flex items-center justify-center space-x-2">
-                    <span>Mở Khóa Trạm này</span>
+                    <span>Mở phá + mụt trạm </span>
                     <i class="fa-solid fa-key"></i>
                 </button>
             </div>
@@ -329,7 +329,7 @@
             </div>
 
             <button onclick="resetGameProgress()" class="w-full bg-gradient-to-r from-yellow-600 to-amber-800 hover:from-yellow-700 hover:to-amber-900 active:scale-95 text-white font-bold py-3 px-4 rounded-xl shadow-lg uppercase text-xs tracking-wider transition">
-                <i class="fa-solid fa-rotate-right mr-1.5"></i>Chơi Lại
+                <i class="fa-solid fa-rotate-right mr-1.5"></i>Nút này dể bé Ỏu chơy lại
             </button>
         </div>
     </div>
@@ -339,7 +339,7 @@
         // Dữ liệu 6 trạm quà tặng
         const stationsData = [
             {
-                station: "Trạm 1",
+                station: "Trạm mụt",
                 title: "Vật Bất Ly Thân",
                 question: "Món quà nhỏ gọn giúp bạn giữ chìa khóa xe, chìa khóa phòng trọ không bị thất lạc là gì?",
                 standardAnswer: "móc khóa Ỏu",
@@ -349,7 +349,7 @@
                 ]
             },
             {
-                station: "Trạm 2",
+                station: "Trạm he",
                 title: "Trang Trí Đáng Yêu",
                 question: "Những hình dán nhỏ xinh in logo OU, dùng để dán lên laptop, ly nước, sổ tay để trang trí là gì?",
                 standardAnswer: "stickers Ỏu",
@@ -359,7 +359,7 @@
                 ]
             },
             {
-                station: "Trạm 3",
+                station: "Trạm be",
                 title: "Phụ Kiện Dép Độc Đáo",
                 question: "Phụ kiện nhỏ xinh dùng để gắn trang trí vào các lỗ trên đôi dép Crocs của sinh viên OU là gì?",
                 standardAnswer: "charm crocs Ỏu",
@@ -370,27 +370,27 @@
                 ]
             },
             {
-                station: "Trạm 4",
+                station: "Trạm bún",
                 title: "Điểm Nhấn Mái Tóc",
                 question: "Phụ kiện làm đẹp giúp giữ nếp tóc gọn gàng và tạo điểm nhấn đáng yêu cho các bạn nữ là gì?",
                 standardAnswer: "kẹp tóc Ỏu",
                 validAnswers: [
-                    "kẹp tóc", "kep toc", "kẹp tóc Ỏu", "kẹp tóc ou", "kep toc Ou", "cài tóc",
+                    "kẹp tóc", "kep toc", "kẹp tóc Ỏu", "kẹp tóc ou", "kep toc Ou", "cài tóc", "kẹp", "kep",
                     "cai toc"
                 ]
             },
             {
-                station: "Trạm 5",
+                station: "Trạm nem",
                 title: "Ánh Sáng Đêm Khuya",
                 question: "Vật dụng phát ra ánh sáng dịu nhẹ giúp bạn dễ đi vào giấc ngủ hoặc đọc sách ban đêm là gì?",
                 standardAnswer: "đèn ngủ nhấm Ỏu",
                 validAnswers: [
                     "đèn ngủ", "den ngu", "den ngu nham Ou", "đèn ngủ Ỏu", "đèn ngủ Nhấm",
-                    "đèn mini", "den mini", "đèn nhấm", "den nham", "đèn ngủ nhấm", "den ngu nham"
+                    "đèn mini", "den mini", "đèn nhấm", "den nham", "đèn ngủ nhấm", "den ngu nham", "đèn", "den"
                 ]
             },
             {
-                station: "Trạm 6",
+                station: "Trạm cúi cùm",
                 title: "Kho Báu Đẳng Cấp",
                 question: "Phần quà đặc biệt nhất ở trạm cuối: Một thương hiệu đồng hồ đeo tay nổi tiếng đến từ Nhật Bản (O...)?",
                 standardAnswer: "đồng hồ",
@@ -549,7 +549,7 @@
             if (isCorrect) {
                 // ĐÚNG
                 feedback.className = "mt-3 p-2.5 rounded-xl text-xs font-bold text-green-950 bg-green-300/90 border border-green-500 text-center";
-                feedback.innerText = `🎉 Chính xác! Đáp án đúng là "${stationsData[activeStationIndex].standardAnswer}".`;
+                feedback.innerText = `🎉 Ỏu đoán dúm oyyyyy! Kết vả "${stationsData[activeStationIndex].standardAnswer}".`;
                 feedback.classList.remove('hidden');
 
                 completedStations[activeStationIndex] = true;
@@ -577,7 +577,7 @@
                 setTimeout(() => modalBox.classList.remove('shake-anim'), 400);
 
                 feedback.className = "mt-3 p-2.5 rounded-xl text-xs font-bold text-red-950 bg-red-300/90 border border-red-500 text-center";
-                feedback.innerText = "❌ Chưa đúng rồi! Hãy thử nhập từ khác hoặc từ đồng nghĩa nhé.";
+                feedback.innerText = "❌ Nhooooo! Ỏu thử lại ikkk";
                 feedback.classList.remove('hidden');
             }
         }
